@@ -26,4 +26,5 @@ public String HelloCalculator(){
     public int calculatorDivide(@RequestParam(name = "num1")int num1,@RequestParam(name = "num2")int num2){
         return num1 / num2;
     }
+
 }
